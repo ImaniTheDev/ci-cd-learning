@@ -1,22 +1,22 @@
-# Project Title: CI/CD Learning
+# CI/CD Learning
 
-This project contains learning materials and workflows related to CI/CD concepts, including GitHub Actions, YAML pipelines, and automation best practices.
+This repository contains hands-on exercises and workflows related to Continuous Integration and Continuous Deployment (CI/CD) principles.
 
-## Tech Used
+## Contents
+
+- `.github/workflows/`: Contains GitHub Actions workflow files to automate CI/CD pipelines.
+- `pipeline-demo.yml`: A sample CI/CD pipeline demonstrating basic build/test/deploy automation.
+- `lint.yml`: Workflow for code linting (syntax and style checks).
+
+## Skills Demonstrated
+
 - GitHub Actions
-- YAML
-- Shell / Bash
+- YAML syntax for automation workflows
+- Workflow structure and triggers
+- Basic CI/CD principles
 
-## Folder Structure
-- `.github/workflows/` – CI/CD pipeline files
-- `pipeline-demo.yml` – sample CI/CD automation
-- `lint.yml` – code linting automation (WIP)
+## Getting Started
 
-## What I Learned
-- How to set up GitHub Actions from scratch
-- Workflow structure: triggers, jobs, and steps
-- Writing and debugging `.yml` pipeline files
-
-## Future Goals
-- Add test coverage
-- Set up auto-deploy to a staging environment
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/imanithecoder/ci-cd-learning.git
