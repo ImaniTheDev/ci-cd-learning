@@ -1,11 +1,22 @@
-# Quality Systems Automation
+# Project Title: CI/CD Learning
 
-A collection of tools and templates related to issue tracking, SOP documentation, and quality system workflows.
+This project contains learning materials and workflows related to CI/CD concepts, including GitHub Actions, YAML pipelines, and automation best practices.
 
-## Contents
-- Root cause tracker template (CSV + Python)
-- SOP writing script
-- Checklist generator for issue resolution
+## Tech Used
+- GitHub Actions
+- YAML
+- Shell / Bash
 
-## Author
-Imani Crumble — Process-driven systems thinker pivoting into quality and cloud-based engineering roles.
+## Folder Structure
+- `.github/workflows/` – CI/CD pipeline files
+- `pipeline-demo.yml` – sample CI/CD automation
+- `lint.yml` – code linting automation (WIP)
+
+## What I Learned
+- How to set up GitHub Actions from scratch
+- Workflow structure: triggers, jobs, and steps
+- Writing and debugging `.yml` pipeline files
+
+## Future Goals
+- Add test coverage
+- Set up auto-deploy to a staging environment
