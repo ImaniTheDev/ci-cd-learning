@@ -1,22 +1,13 @@
-# CI/CD Learning
+# ci-cd-learning
 
-This repository contains hands-on exercises and workflows related to Continuous Integration and Continuous Deployment (CI/CD) principles.
+## Quality Systems Automation
+
+A collection of tools and templates related to issue tracking, SOP documentation, and quality system workflows.
 
 ## Contents
+- Root cause tracker template (CSV + Python)
+- SOP writing script
+- Checklist generator for issue resolution
 
-- `.github/workflows/`: Contains GitHub Actions workflow files to automate CI/CD pipelines.
-- `pipeline-demo.yml`: A sample CI/CD pipeline demonstrating basic build/test/deploy automation.
-- `lint.yml`: Workflow for code linting (syntax and style checks).
-
-## Skills Demonstrated
-
-- GitHub Actions
-- YAML syntax for automation workflows
-- Workflow structure and triggers
-- Basic CI/CD principles
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/imanithecoder/ci-cd-learning.git
+## Author
+Imani Crumble – Process-driven systems thinker pivoting into quality and cloud-based engineering roles.
